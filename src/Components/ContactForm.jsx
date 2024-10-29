@@ -187,7 +187,7 @@ const ContactForm = () => {
           <div
             className="absolute inset-0 bg-cover bg-center z-0"
             style={{
-              backgroundImage: "url('/images/contact.png')",
+              backgroundImage: "url('images/contact.png')",
               filter: "brightness(1)",
             }}
           ></div>
