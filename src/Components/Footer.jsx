@@ -10,34 +10,26 @@ import {
 
 const categories = [
   {
-    name: "News",
-    links: [
-      "World",
-      "Local",
-      "Technology",
-      "Business",
-      "Sports",
-      "Entertainment",
-    ],
+    name: "Pages",
+    links: ["Home", "About", "Services", "Contact", "Book a Session"],
   },
   {
-    name: "Opinion",
-    links: ["Editorials", "Op-Ed", "Letters", "Sunday Review", "Video"],
+    name: "Categories",
+    links: [
+      "Reproductive",
+      "Mental",
+      "Hormonal",
+      "Sexual",
+      "Lifestyle & Wellness",
+    ],
   },
   {
     name: "Arts",
-    links: [
-      "Today's Arts",
-      "Art & Design",
-      "Books",
-      "Dance",
-      "Movies",
-      "Music",
-    ],
+    links: ["Today's Arts", "Art & Design", "Books", "Dance", "Movies"],
   },
   {
     name: "Living",
-    links: ["Education", "Food", "Health", "Jobs", "Love", "Magazine"],
+    links: ["Education", "Food", "Health", "Jobs", "Love"],
   },
   {
     name: "More",
@@ -46,7 +38,7 @@ const categories = [
       "Wirecutter",
       "Cooking",
       "Live Events",
-      "The Learning Network",
+      "The Learning",
     ],
   },
 ];

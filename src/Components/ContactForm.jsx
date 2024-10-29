@@ -201,18 +201,18 @@ const ContactForm = () => {
             </p>
             <div className="space-y-2 text-black">
               <p>
-                <strong>Email:</strong> oluchidonatus.1@gmail.com
+                <strong>Email :</strong> oluchidonatus.1@gmail.com
               </p>
               <p>
-                <strong>Phone:</strong> +234-9057155469
+                <strong>Phone :</strong> +234-9057155469
               </p>
               <p>
-                <strong>Address:</strong> 5, Camp Davis Road.
+                <strong>Address :</strong> 5, Camp Davis Road.
               </p>
             </div>
             <div className="mt-6">
               <h4 className="text-lg font-semibold mb-2 text-black">
-                Follow Us
+                Follow Us :
               </h4>
               <div className="flex space-x-4">
                 <a
