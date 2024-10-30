@@ -155,7 +155,7 @@ const SingleBlog = () => {
 
   return (
     <div>
-      <main className="max-w-7xl mx-10 sm:mx-auto my-12 flex flex-col md:flex-row gap-12 py-20">
+      <main className="max-w-7xl mx-10 my-12 flex flex-col md:flex-row gap-12 py-20">
         <article className="lg:w-3/4 mx-auto">
           {thumbnail && thumbnail.fields && thumbnail.fields.file && (
             <img
