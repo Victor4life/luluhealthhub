@@ -2,6 +2,7 @@ import React from "react";
 import { useLocation } from "react-router-dom";
 import Hero from "../Components/Hero";
 import BlogPage from "../Components/BlogPage";
+import Essentials from "../Components/Essentials";
 
 const Home = () => {
   const location = useLocation();
@@ -12,6 +13,9 @@ const Home = () => {
 
       <div className="max-w-7xl mx-auto">
         <BlogPage />
+      </div>
+      <div>
+        <Essentials />
       </div>
     </div>
   );
