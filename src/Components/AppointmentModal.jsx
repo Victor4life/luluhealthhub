@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { FaXmark } from "react-icons/fa6";
 
 const AppointmentModal = ({ isOpen, onClose }) => {
   const [formData, setFormData] = useState({
@@ -15,7 +16,7 @@ const AppointmentModal = ({ isOpen, onClose }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission here (e.g., send data to backend)
+    // Handles form submission here (e.g., send data to backend)
     console.log("Form submitted:", formData);
     onClose();
   };
@@ -25,6 +26,12 @@ const AppointmentModal = ({ isOpen, onClose }) => {
   return (
     <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50">
       <div className="bg-white p-8 rounded-lg max-w-md w-full">
+        <button
+          onClick={onClose}
+          className="absolute top-2 right-2 text-gray-500 hover:text-gray-700"
+        >
+          <FaXmark size={24} />
+        </button>
         <h2 className="text-2xl font-bold mb-4">Book a Session</h2>
         <form onSubmit={handleSubmit}>
           <input
