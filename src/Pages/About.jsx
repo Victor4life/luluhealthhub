@@ -65,6 +65,56 @@ const About = () => {
             </div>
           </div>
         </div>
+        <div>
+          <h3 className="text-3xl font-bold mb-6 mt-10">
+            What is the goal of Lulu's Health Hub
+          </h3>
+          <p className="mb-4">
+            Lulu Health Hub encourages awareness of the issue of women and heart
+            disease, and also action to save more lives. The movement harnesses
+            the energy, passion and power women have to band together and
+            collectively wipe out heart disease. It challenges them to know
+            their risk for heart disease and take action to reduce their
+            personal risk. It also gives them the tools they need to lead a
+            heart healthy life.
+          </p>
+          <p className="mb-4">
+            Lulu Health Hub encourages awareness of the issue of women and heart
+            disease, and also action to save more lives. The movement harnesses
+            the energy, passion and power women have to band together and
+            collectively wipe out heart disease. It challenges them to know
+            their risk for heart disease and take action to reduce their
+            personal risk. It also gives them the tools they need to lead a
+            heart healthy life.
+          </p>{" "}
+          <p className="mb-4">
+            Lulu Health Hub encourages awareness of the issue of women and heart
+            disease, and also action to save more lives. The movement harnesses
+            the energy, passion and power women have to band together and
+            collectively wipe out heart disease. It challenges them to know
+            their risk for heart disease and take action to reduce their
+            personal risk. It also gives them the tools they need to lead a
+            heart healthy life.
+          </p>{" "}
+          <p className="mb-4">
+            Lulu Health Hub encourages awareness of the issue of women and heart
+            disease, and also action to save more lives. The movement harnesses
+            the energy, passion and power women have to band together and
+            collectively wipe out heart disease. It challenges them to know
+            their risk for heart disease and take action to reduce their
+            personal risk. It also gives them the tools they need to lead a
+            heart healthy life.
+          </p>{" "}
+          <p className="mb-4">
+            Lulu Health Hub encourages awareness of the issue of women and heart
+            disease, and also action to save more lives. The movement harnesses
+            the energy, passion and power women have to band together and
+            collectively wipe out heart disease. It challenges them to know
+            their risk for heart disease and take action to reduce their
+            personal risk. It also gives them the tools they need to lead a
+            heart healthy life.
+          </p>
+        </div>
       </div>
     </div>
   );
