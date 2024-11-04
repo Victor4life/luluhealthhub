@@ -2,6 +2,8 @@ import React from "react";
 import Subscribe from "../Components/Subscribe";
 import Essentials from "../Components/Essentials";
 import GetConnected from "../Components/GetConnected";
+import Menopause from "../Components/Menopause";
+
 const Services = () => {
   return (
     <div>
@@ -16,6 +18,7 @@ const Services = () => {
       <div>
         <Essentials />
       </div>
+      <Menopause />
       <GetConnected />
     </div>
   );
