@@ -10,43 +10,47 @@ import {
 
 const categories = [
   {
-    name: "News",
+    name: "Pages",
+    links: ["Home", "About", "Services", "Contact", "Book a Session"],
+  },
+  {
+    name: "Categories",
     links: [
-      "World",
-      "Local",
-      "Technology",
-      "Business",
-      "Sports",
-      "Entertainment",
+      "Reproductive",
+      "Mental",
+      "Hormonal",
+      "Sexual",
+      "Lifestyle & Wellness",
     ],
   },
   {
-    name: "Opinion",
-    links: ["Editorials", "Op-Ed", "Letters", "Sunday Review", "Video"],
-  },
-  {
-    name: "Arts",
+    name: "Links",
     links: [
-      "Today's Arts",
-      "Art & Design",
-      "Books",
-      "Dance",
-      "Movies",
-      "Music",
+      "Donation",
+      "Comments",
+      "Subscription",
+      "Book a Session",
+      "Share Post",
     ],
   },
   {
     name: "Living",
-    links: ["Education", "Food", "Health", "Jobs", "Love", "Magazine"],
+    links: [
+      "Reproductive",
+      "Mental",
+      "Hormonal",
+      "Sexual",
+      "Lifestyle & Wellness",
+    ],
   },
   {
     name: "More",
     links: [
-      "Reader Center",
-      "Wirecutter",
-      "Cooking",
+      "Our Socials",
+      "Blogs",
+      "Sponsored Content",
       "Live Events",
-      "The Learning Network",
+      "Learning",
     ],
   },
 ];
@@ -54,10 +58,10 @@ const categories = [
 const socialLinks = [
   { icon: FaFacebook, url: "https://facebook.com" },
   { icon: FaInstagram, url: "https://instagram.com" },
-  { icon: FaTiktok, url: "https://tiktok.com" },
+  { icon: FaTiktok, url: "https://www.tiktok.com/@lulushealthhub" },
   { icon: FaTwitter, url: "https://twitter.com" },
   { icon: FaWhatsapp, url: "https://whatsapp.com" },
-  { icon: FaYoutube, url: "https://youtube.com" },
+  { icon: FaYoutube, url: "https://www.youtube.com/@LULUSHEALTHHUB-fd6jk" },
 ];
 
 const Footer = () => {

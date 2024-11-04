@@ -1,19 +1,32 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa6";
+import heroVideo from "/videos/hero-display.mp4";
 
 const Hero = () => {
+  const videoRef = useRef(null);
+
+  useEffect(() => {
+    if (videoRef.current) {
+      videoRef.current.load();
+      videoRef.current.play().catch((error) => {
+        console.error("Error attempting to play video:", error);
+      });
+    }
+  }, []);
+
   return (
     <div className="relative h-[400px] flex items-center justify-center overflow-hidden">
       {/* Background Video */}
       <video
+        ref={videoRef}
         autoPlay
         loop
         muted
         playsInline
         className="absolute z-0 w-full h-full object-cover"
       >
-        <source src="/videos/hero-display.mp4" type="video/mp4" />
+        <source src={heroVideo} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
       {/* Overlay to ensure text is readable */}

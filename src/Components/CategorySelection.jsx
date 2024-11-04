@@ -5,11 +5,11 @@ const CategorySelection = ({ onSelectCategory, activeCategory, onSearch }) => {
   const [searchTerm, setSearchTerm] = useState("");
 
   const categories = [
-    "Diseases",
+    "Reproductive Health",
     "Mental Health",
-    "Illnesses",
-    "Cures",
-    "Wellness",
+    "Hormonal Health",
+    "Sexual Health",
+    "Lifestyle & Wellness",
   ];
 
   const handleSearch = () => {

@@ -133,7 +133,6 @@ const SingleBlog = () => {
         `Sending to emekav233@gmail.com: Name: ${name}, Email: ${email}`
       );
 
-      // In a real application, you'd make an API call here
       // const response = await fetch('/api/subscribe', {
       //   method: 'POST',
       //   headers: { 'Content-Type': 'application/json' },
@@ -146,7 +145,7 @@ const SingleBlog = () => {
       //   setFormStatus('An error occurred. Please try again.');
       // }
 
-      // For now, we'll just simulate a successful submission
+      // Simulate a successful submission
       setFormStatus("Thanks for subscribing!");
     } catch (error) {
       console.error("Error:", error);

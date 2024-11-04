@@ -46,7 +46,7 @@ const About = () => {
           <div className="md:w-1/3 mt-6 md:mt-0">
             <div className="relative">
               <img
-                src="/images/subscribe.png"
+                src="images/subscribe.png"
                 alt="HealthDay"
                 className="w-full h-auto"
               />
