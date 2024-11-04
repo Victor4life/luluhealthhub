@@ -53,7 +53,7 @@ const Navbar = () => {
         }`}
       >
         <nav className="px-4 py-4 max-w-7xl mx-auto flex justify-between items-center">
-          <a href="/luluhealthhub/" className="flex items-center">
+          <a href="/" className="flex items-center">
             <img
               src="images/logo.png"
               alt="LULU HealthHub"
