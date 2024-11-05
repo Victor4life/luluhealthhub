@@ -26,7 +26,7 @@ const Subscribe = () => {
           </form>
         </div>
         <div
-          className="w-full sm:w-1/2 bg-cover bg-center h-48 sm:h-auto bg-opacityt-800"
+          className="w-full sm:w-1/2 bg-cover bg-center h-48 sm:h-auto bg-opacity-900"
           style={{ backgroundImage: "url('images/subscribe.png')" }}
         ></div>
       </div>
