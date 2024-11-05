@@ -2,10 +2,10 @@ import React from "react";
 
 const GetConnected = () => {
   return (
-    <div className="container mx-auto px-4 py-16 bg-gradient-to-r from-pink-100 to-purple-100">
+    <div className="container mx-auto px-4 py-16 bg-gradient-to-r from-gray-100 to-white">
       <div className="max-w-4xl mx-auto bg-white rounded-lg shadow-xl overflow-hidden">
         <div className="md:flex">
-          <div className="md:flex-shrink-0 bg-pink-500 md:w-48 flex items-center justify-center">
+          <div className="md:flex-shrink-0 bg-blue-500 md:w-48 flex items-center justify-center">
             <svg
               className="h-24 w-24 text-white"
               fill="none"
@@ -25,17 +25,12 @@ const GetConnected = () => {
               Get Connected
             </div>
             <p className="mt-2 text-gray-600 leading-relaxed">
-              <span className="text-3xl font-bold text-pink-500">
-                Women motivate each other. Educate each other. Support each
-                other. Inspire each other. Let's Go Red together to be seen, to
-                be counted, to be heard, to make an impact.
+              <span className="text-2xl font-bold text-black">
+                Want to get involved?
               </span>
             </p>
             <div className="mt-6">
-              <p className="text-gray-700 text-xl mb-4">
-                Want to get involved and make a difference?
-              </p>
-              <button className="bg-pink-500 text-white font-bold py-3 px-6 rounded-full hover:bg-pink-600 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-pink-500 focus:ring-opacity-50">
+              <button className="bg-blue-500 text-white font-bold py-3 px-6 rounded-full hover:bg-blue-600 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">
                 Join Us Now
               </button>
             </div>
