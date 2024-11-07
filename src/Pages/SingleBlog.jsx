@@ -104,7 +104,6 @@ const SingleBlog = () => {
         <span className="text-purple-600 cursor-pointer">{children}</span>
       ),
       [BLOCKS.EMBEDDED_ENTRY]: (node) => {
-        // You might want to customize this based on your entry structure
         return (
           <div className="bg-gray-100 p-4 rounded mb-4">
             Embedded Entry: {node.data.target.fields.title}
@@ -157,6 +156,9 @@ const SingleBlog = () => {
     <div>
       <main className="max-w-7xl mx-10 my-12 flex flex-col md:flex-row gap-12 py-20">
         <article className="lg:w-3/4 mx-auto">
+          <h3 className="text-2xl lg:text-5xl leading-snug font-bold mb-9 mt-9">
+            {title}
+          </h3>
           {thumbnail && thumbnail.fields && thumbnail.fields.file && (
             <img
               src={thumbnail.fields.file.url}
@@ -164,9 +166,6 @@ const SingleBlog = () => {
               className="w-full h-[400px] object-cover mx-auto rounded"
             />
           )}
-          <h3 className="text-2xl lg:text-4xl leading-snug font-bold mb-9 mt-9">
-            {title}
-          </h3>
           <div className="mt-8 mb-4 flex flex-wrap gap-4 text-gray-500">
             <p className="flex items-center">
               <FaUser className="mr-2" />
@@ -198,6 +197,7 @@ const SingleBlog = () => {
 
         <aside className="lg:w-1/4">
           <SideBar />
+          {/*FORM SECTION*/}
           <form
             onSubmit={handleSubmit}
             className="bg-blue-500 text-white p-6 rounded-lg shadow-md mt-8"

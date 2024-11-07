@@ -1,7 +1,7 @@
 import React from "react";
 import Subscribe from "../Components/Subscribe";
+import Menopause from "../Components/Menopause";
 import Essentials from "../Components/Essentials";
-import GetConnected from "../Components/GetConnected";
 
 const Services = () => {
   return (
@@ -14,10 +14,8 @@ const Services = () => {
       <div className="-translate-y-1/2">
         <Subscribe />
       </div>
-      <div>
-        <Essentials />
-      </div>
-      <GetConnected />
+      <Essentials />
+      <Menopause />
     </div>
   );
 };

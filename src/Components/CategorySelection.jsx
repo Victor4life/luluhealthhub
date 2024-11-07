@@ -1,25 +1,14 @@
-import React, { useState } from "react";
-import { FaMagnifyingGlass } from "react-icons/fa6";
+import React from "react";
 
-const CategorySelection = ({ onSelectCategory, activeCategory, onSearch }) => {
-  const [searchTerm, setSearchTerm] = useState("");
-
+const CategorySelection = ({ onSelectCategory, activeCategory }) => {
   const categories = [
     "Reproductive Health",
     "Mental Health",
     "Hormonal Health",
     "Sexual Health",
     "Lifestyle & Wellness",
+    "Nutritional Health",
   ];
-
-  const handleSearch = () => {
-    onSearch(searchTerm);
-  };
-
-  const handleInputChange = (e) => {
-    const value = e.target.value;
-    setSearchTerm(value);
-  };
 
   return (
     <div className="px-4 mb-8 py-1 text-gray-900">
@@ -45,22 +34,6 @@ const CategorySelection = ({ onSelectCategory, activeCategory, onSearch }) => {
             {category}
           </button>
         ))}
-        <div className="flex items-center bg-gray-200 rounded-full px-4 py-2">
-          <input
-            type="text"
-            placeholder="Search a Topic..."
-            value={searchTerm}
-            onChange={handleInputChange}
-            className="bg-transparent outline-none"
-          />
-          <button
-            onClick={handleSearch}
-            className="ml-2 focus:outline-none"
-            aria-label="Search"
-          >
-            <FaMagnifyingGlass />
-          </button>
-        </div>
       </div>
     </div>
   );

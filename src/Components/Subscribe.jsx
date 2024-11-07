@@ -9,7 +9,7 @@ const Subscribe = () => {
   };
 
   return (
-    <div className="max-w-xl mx-auto mt-8 overflow-hidden rounded-lg shadow-xl border-4 border-gray-800">
+    <div className="max-w-xl mx-auto mt-8 overflow-hidden rounded-lg shadow-xl border-4 border-gray-800 -mb-5">
       <div className="flex flex-col sm:flex-row">
         <div className="w-full sm:w-1/2 bg-black p-4 sm:p-6 md:p-8">
           <h2 className="text-xl sm:text-2xl font-bold text-white mb-4">
