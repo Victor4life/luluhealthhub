@@ -49,10 +49,10 @@ const ContactForm = () => {
       setErrors({});
       try {
         const result = await emailjs.send(
-          "service_o8ptmtq", // Replace with your EmailJS service ID
-          "template_7fo5cos", // Replace with your EmailJS template ID
+          "service_o8ptmtq",
+          "template_7fo5cos",
           formData,
-          "POlPdbmHA9PknmCmU" // Replace with your EmailJS user ID
+          "POlPdbmHA9PknmCmU"
         );
 
         if (result.text === "OK") {
