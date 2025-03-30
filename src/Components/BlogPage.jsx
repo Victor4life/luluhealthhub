@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { createClient } from "contentful";
 import BlogCard from "./BlogCard";
 import Pagination from "./Pagination";
-import CategorySelection from "./CategorySelection"; // Renamed from CategorySelection
+import CategorySelection from "./CategorySelection";
 import SideBar from "./SideBar";
 
 const client = createClient({
@@ -14,15 +14,15 @@ const BlogPage = () => {
   const [blogs, setBlogs] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
   const [totalBlogs, setTotalBlogs] = useState(0);
-  const [selectedTag, setSelectedTag] = useState(null); // Changed from selectedCategory
+  const [selectedTag, setSelectedTag] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
-  const [tags, setTags] = useState([]); // New state for storing all tags
+  const [tags, setTags] = useState([]);
   const pageSize = 6;
 
   const handleTagChange = (tag) => {
     setSelectedTag(tag);
-    setCurrentPage(1); // Reset to first page when changing tags
+    setCurrentPage(1);
   };
 
   useEffect(() => {

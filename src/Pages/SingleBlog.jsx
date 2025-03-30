@@ -154,7 +154,7 @@ const SingleBlog = () => {
 
   return (
     <div>
-      <main className="max-w-7xl mx-10 my-12 flex flex-col md:flex-row gap-12 py-20">
+      <main className="max-w-7xl mx-6 md:mx-10 my-12 flex flex-col md:flex-row gap-12 md:py-12">
         <article className="lg:w-3/4 mx-auto">
           <h3 className="text-2xl lg:text-5xl leading-snug font-bold mb-9 mt-9">
             {title}
@@ -163,7 +163,7 @@ const SingleBlog = () => {
             <img
               src={thumbnail.fields.file.url}
               alt={title}
-              className="w-full h-[400px] object-cover mx-auto rounded"
+              className="w-full h-[300px] object-cover mx-auto rounded"
             />
           )}
           <div className="mt-8 mb-4 flex flex-wrap gap-4 text-gray-500">

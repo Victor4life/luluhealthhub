@@ -28,7 +28,7 @@ const BlogCard = ({ blogs }) => {
                 <img
                   src={thumbnail.fields.file.url}
                   alt={title || "Blog post image"}
-                  className="w-full h-[250px]"
+                  className="w-full h-[200px]"
                 />
               )}
             </div>
