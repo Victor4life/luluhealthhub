@@ -154,7 +154,7 @@ const SingleBlog = () => {
 
   return (
     <div>
-      <main className="max-w-7xl mx-6 md:mx-10 my-12 flex flex-col md:flex-row gap-12 md:py-12">
+      <main className="max-w-7xl mx-4 md:mx-10 my-12 flex flex-col md:flex-row gap-12 md:py-12">
         <article className="lg:w-3/4 mx-auto">
           <h3 className="text-2xl lg:text-5xl leading-snug font-bold mb-9 mt-9">
             {title}
